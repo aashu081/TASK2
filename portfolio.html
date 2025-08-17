@@ -1,0 +1,161 @@
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+      }
+      .logo {
+        color: #ff4081;
+      }
+      .nav {
+        background-color: #222;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      .nav li {
+        margin: 0 15px;
+      }
+      .nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 15px;
+      }
+      .nav a:hover {
+        color: #ff4081;
+      }
+      .header {
+        margin: 0 0 20px 0;
+        position: relative;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+      }
+      .header h2 {
+        font-weight: normal;
+        color: #ff4081;
+      }
+      .intro {
+        margin: 20px 0 20px 40px;
+        font-size: 20;
+        text-align: left;
+        max-width: 500px;
+      }
+      .intro .button {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: fit-content;
+      }
+      .profile-photo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ff4081;
+        background: #fff;
+      }
+      .button {
+        background-color: #ff4081;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      .button:hover {
+        background-color: #e91e63;
+      }
+      footer {
+        margin: 40px 0;
+        font-size: 0.9em;
+        margin-top: auto;
+      }
+      .projects-section {
+        margin: 40px 40px 40px auto;
+        max-width: 400px;
+        text-align: left;
+        align-self: flex-end;
+      }
+      .projects-section h3 {
+        font-style: italic;
+        color: #e91e63;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="logo">Portfolio</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="header">
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Hi, I'm Mehul Singh</h1>
+          <h2>Web developer</h2>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+      <img src="images/photo.jpg" alt="Mehul Singh" class="profile-photo" />
+    </div>
+    <div class="projects-section">
+      <h2>Some Recent Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>Credit Card Default Predictor</h3>
+          <p>
+            A machine learning project to predict the likelihood of credit card
+            default using customer data and advanced analytics.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Twitter Feed Extension</h3>
+          <p>
+            A browser extension that lets you watch someone else's Twitter feed
+            in real time, enhancing your social media experience.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <p>
+        B Tech student at IIT ROORKEE. I create user-friendly interfaces that
+        enliven the user experience.
+      </p>
+      <a href="#contact" class="button">Get in Touch</a>
+    </div>
+    <footer>
+      <p>&copy; 2025 Mehul Singh. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
